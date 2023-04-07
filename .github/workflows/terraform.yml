@@ -44,12 +44,14 @@
 
 name: 'Terraform'
 
-on:
+#on:
 #  push:
 #    branches: [ "main" ]
+#  pull_request_review:
+#    types: [submitted]
+on:
   pull_request_review:
-    types: [submitted]
-      
+    types: [submitted]      
     
 permissions:
   contents: read
@@ -64,6 +66,7 @@ jobs:
     defaults:
       run:
         shell: bash
+
 
     steps:
     # Checkout the repository to the GitHub Actions runner
