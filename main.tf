@@ -1,3 +1,4 @@
+#primera ejecucion
 # define GCP region
 variable "gcp_region" {
   type        = string
