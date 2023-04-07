@@ -1,4 +1,4 @@
-A ver si ahora corre: prueba6 con on pull-request type closed y github.event.pull_request.merged == true
+A ver si ahora corre: prueba7 con on pull-request type closed y github.event.pull_request.merged == true
 Environment preparation:
 1. gcp sdk installed (gcloud).
     https://cloud.google.com/sdk/docs/install
