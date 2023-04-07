@@ -52,8 +52,10 @@ name: 'Terraform'
 on:
   pull_request:
     types:
-      - closed    
-    
+      - closed  
+  push:
+    branches: ["main"]
+
 permissions:
   contents: read
 
