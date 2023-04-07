@@ -20,4 +20,5 @@ Environment preparation:
     Terraform console
     Terraform destroy
     
-    mas cambios en el codigo
+    otros cambios
+
