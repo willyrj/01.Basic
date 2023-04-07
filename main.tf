@@ -9,7 +9,7 @@ variable "gcp_region" {
 variable "gcp_project" {
   type        = string
   description = "GCP project name"
-  default     = "hub01-379813"
+  default     = "mygkeproject-381022"
 }
 variable "bucket-name" {
   type        = string
