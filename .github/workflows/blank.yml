@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - run: echo "the job was automatically triggered by a ${{ github.exent_name}} event"
+      - run: echo "the job was automatically triggered by a ${{ github.event_name}} event"
       - run: echo "this job runs on ${{runner.os}}"
       - run: echo " branch ${{ github.red }} and repository ${{ github.repository}}"
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
