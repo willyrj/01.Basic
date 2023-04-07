@@ -19,3 +19,5 @@ Environment preparation:
     Terraform state list
     Terraform console
     Terraform destroy
+    
+    otros cambios
