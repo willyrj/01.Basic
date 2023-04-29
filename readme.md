@@ -1,4 +1,4 @@
-A ver si ahora corre: prueba12 vuelvo al principio a ver que pasa
+A ver si ahora corre: prueba12 vuelvo al principio a ver que pasa gcp
 Environment preparation:
 1. gcp sdk installed (gcloud).
     https://cloud.google.com/sdk/docs/install
